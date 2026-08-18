@@ -1,30 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Multimedia List</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="card dark">
+    
+    <h1 class="content">
+   <strong> My Multimedia List</strong</h1>
 
-    <h1>My Multimedia List</h1>
-
-    <div>
-        <h2>Image</h2>
-        <img src="images/sample.jpg" alt="Sample Image" width="300">
+    <div class="card purple">
+        <h2>Favorite Photo </h2>
+        <img src="images/celeste.jpg" alt="Pretty" width="180"> 
+        <img src="images/celeste2.jpg" alt="Pretty" width="170"> 
+        <img src="images/calico3.jpg" alt="Pretty" width="180"> 
+        <img src="images/calico4.jpg" alt="Pretty" width="140"> 
+        <img src="images/calico5.jpg" alt="Pretty" width="270"> 
+        
     </div>
 
-    <div>
-        <h2>Audio</h2>
+    <div class="card pink">
+        <h2 class="content">Music List</h2>
+        <ul class="Playlist">
+        <li>
+            <h3>Track 1 - ADÉLA – Ain't In LA</h3>
         <audio controls>
-            <source src="music/sample.mp3" type="audio/mpeg">
-        </audio>
-    </div>
+            <source src="music/music1.mp3" type="audio/mpeg">
+            </audio>
+        </li>
+        
+        <li>
+            <h3>Track 2 - Ravyn Lenae - Love Me Not </h3>
+        <audio controls>
+            <source src="music/music2.mp3" type="audio/mpeg">
+            </audio>
+        </li>
+        
+        <li>
+            <h3>Track 3 -a ka– All Bark No Bite</h3>
+        <audio controls>
+            <source src="music/music3.mp3" type="audio/mpeg">
+            </audio>
+        </li>
+        
+        <li>
+            <h3>Track 4 - MEOVV – DDI RO RI</h3>
+        <audio controls>
+            <source src="music/music4.mp3" type="audio/mpeg">
+            </audio>
+        </li>
+        
+        <li>
+            <h3>Track 5 - Guitar – Violet Rain</h3>
+        <audio controls>
+            <source src="music/music5.mp3" type="audio/mpeg">
+            </audio>
+        </li>
+        
+        
+        
+        
+        </ul>
+  </div>
 
-    <div>
-        <h2>Video</h2>
-        <video controls width="400">
-            <source src="videos/sample.mp4" type="video/mp4">
+    <div class="card blue">
+        <h2 class="content"
+        >Dream Travel Destination</h2>
+        <video controls width="365">
+            <source src="Videos/bangkok.mp4" type="video/mp4">
         </video>
+        
+          <video controls width="365">
+            <source src="Videos/dubai.mp4" type="video/mp4">
+            </video>
+            
+            <video controls width="365">
+            <source src="Videos/india.mp4" type="video/mp4">
+            </video>
+            
+              <video controls width="365">
+            <source src="Videos/japan.mp4" type="video/mp4"></video>
+              <video controls width="365">
+                <source src="Videos/singapore.mp4" type="video/mp4">
+                </video>
     </div>
 
 </body>
