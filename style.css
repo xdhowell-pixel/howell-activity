@@ -1,1 +1,18 @@
+body{
+    font-family: Times New Roman, Times, serif;
+}
+h2{
+    text allign: center;
+}
+.content{
+    BACKGROUND-COLOR: #eb9c9c;
+    padding: 10px;
+    border: 5px solid #f16060;
+    border-radius: 15px;
+    margin: 10px;
 
+}
+.content img{
+    border: 5px solid #220000;
+    border-radius: 20px;
+}
